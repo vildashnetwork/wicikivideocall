@@ -33,11 +33,10 @@ const LobbyScreen = () => {
             <title>WICIKI</title>
             <link rel="shortcut icon" href="../../public/favicon.ico" type="image/x-icon" />
             <h1 className='text-5xl font-[15px] mb-5 mt-5 text-center font-josefin tracking-tighter'>Video<VideoCallIcon sx={{ fontSize: 70, color: 'rgb(30,220,30)' }} />Call Test</h1>
-            <p className='text-2xl mt-2 mb-4 text-center md:max-w-[400px] max-w-[300px] text-gray-600'>
+            <p className='text-xl mt-2 mb-4 text-center md:max-w-[400px] max-w-[300px] text-gray-600'>
                 Peer-to-Peer video calls, powered by <b>WICIKI TECH EXPERT LIBLISSZ!</b>
                 <br />
-                THIS IS JUST FOR TESTING SOON ENOUGH IT WILL BE INTEGRATED TO THE APP PEOPLE CAN CALL ON THE
-                BROWSER AND THE APP
+                THIS IS JUST FOR TESTING
             </p>
             <div className='bg-white p-6 rounded shadow-md'>
                 <form className='flex flex-col items-center justify-center'
