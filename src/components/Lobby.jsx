@@ -30,19 +30,20 @@ const LobbyScreen = () => {
 
     return (
         <div className='flex flex-col items-center justify-center h-screen bg-gray-100'>
-            <title>VideoPeers</title>
+            <title>WICIKI</title>
             <link rel="shortcut icon" href="../../public/favicon.ico" type="image/x-icon" />
-            <h1 className='text-5xl font-[15px] mb-5 mt-5 text-center font-josefin tracking-tighter'>Video<VideoCallIcon sx={{ fontSize: 70, color: 'rgb(30,220,30)' }} />Peers</h1>
+            <h1 className='text-5xl font-[15px] mb-5 mt-5 text-center font-josefin tracking-tighter'>Video<VideoCallIcon sx={{ fontSize: 70, color: 'rgb(30,220,30)' }} />Call Test</h1>
             <p className='text-2xl mt-2 mb-4 text-center md:max-w-[400px] max-w-[300px] text-gray-600'>
-                Peer-to-Peer video calls, powered by <b>WebRTC!</b>
+                Peer-to-Peer video calls, powered by <b>WICIKI TECH EXPERT LIBLISSZ!</b>
                 <br />
-                Bring People Closer Together.
+                THIS IS JUST FOR TESTING SOON ENOUGH IT WILL BE INTEGRATED TO THE APP PEOPLE CAN CALL ON THE
+                BROWSER AND THE APP
             </p>
             <div className='bg-white p-6 rounded shadow-md'>
                 <form className='flex flex-col items-center justify-center'
                     onSubmit={handleSubmitForm}
                 >
-                    <label htmlFor="email">Email ID</label>
+                    <label htmlFor="email">Your Email:</label>
                     <input
                         type="email"
                         id='email'
@@ -52,7 +53,8 @@ const LobbyScreen = () => {
                         onChange={(e) => setEmail(e.target.value)}
                     />
                     <br />
-                    <label htmlFor="room">Room Number</label>
+                    <label htmlFor="room">Your Room Number:
+                    </label>
                     <input
                         type="number"
                         id='room'
@@ -61,6 +63,7 @@ const LobbyScreen = () => {
                         value={room}
                         onChange={(e) => setRoom(e.target.value)}
                     />
+                    {"(this will enable you to add another person in this same room)"}
                     <br />
                     <button className='bg-blue-500 hover:bg-blue-600'>
                         Join
