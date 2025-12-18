@@ -36,7 +36,7 @@ export const useSocket = () => useContext(SocketContext);
 const SocketProvider = ({ children }) => {
     const socket = useMemo(() => {
         if (typeof window !== "undefined") {
-            return io("https://wicikibackendcall.onrender.com/")
+            return io("https://wicikibackendcall-zd2l.onrender.com/")
         }
         return null; // do not create socket on server
     }, []);
